@@ -1,0 +1,42 @@
+.ColorPalette {
+	display: flex;
+	height: 100vh;
+	width: 100vw;
+	flex-direction: column;
+	align-items: center;
+}
+
+.center {
+	display: flex;
+	height: 100vh;
+	align-items: center;
+	justify-content: center;
+}
+
+.title {
+	font-family: 'Sacramento', cursive;
+	margin-top: 20px;
+	font-size: 80px;
+}
+
+.center span {
+	font-family: 'Sacramento', cursive;
+	font-size: 80px;
+	margin: 0 15px;
+	color: white;
+}
+
+.center span:focus {
+	border: none;
+}
+
+.inputColor {
+	font-family: 'Sacramento', cursive;
+	border: none;
+	height: 70px;
+	width: 210px;
+	vertical-align: middle;
+	font-size: 50px;
+	color: white;
+	background: transparent;
+}
